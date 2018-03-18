@@ -1,7 +1,7 @@
 This a a CartPole test environment
 Usage:
 
-first cd into gym-cp and do pip install -e . to install this environment 
+first cd into this folder and do pip install -e . to install this environment 
 
 in your Python code, do
 
