@@ -16,6 +16,8 @@ To change the parameters do:
 
 env.my_init(G=9.8,MC=1,MP=0.1,L=0.5,F=10) #these are the default params of the environment
 
+NOTE: Do env = env.unwrapped before doing env.my_init .. else you will face some 'TimeLimit' error
+
 where G= gravity, MC= Mass of Cart, MP = Mass of Pole, L= Length of pole, F = Magnitude of force applied to the cart
 
 This will change the corresponding values. You can also choose to update only a few params, say only G and MC. the rest will kept to the default values internally
