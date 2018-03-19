@@ -14,9 +14,7 @@ Now, this re-creates the original CartPole environment parameters.
 
 To change the parameters do:
 
-env.my_init(G=9.8,MC=1,MP=0.1,L=0.5,F=10) #these are the default params of the environment
-
-NOTE: Do env = env.unwrapped before doing env.my_init .. else you will face some 'TimeLimit' error
+env.env.my_init(G=9.8,MC=1,MP=0.1,L=0.5,F=10) #these are the default params of the environment
 
 where G= gravity, MC= Mass of Cart, MP = Mass of Pole, L= Length of pole, F = Magnitude of force applied to the cart
 
